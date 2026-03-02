@@ -48,6 +48,38 @@ export default function Home() {
           <ServiceModule key={idx} {...service} />
         ))}
       </div>
+
+      {/* Engagement Models Section */}
+      <div className="w-full py-24 px-6 md:px-12 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16 border-t border-border/30">
+        <div className="md:w-1/3">
+          <h2 className="text-3xl font-black uppercase tracking-tighter text-foreground mb-4">
+            Engagement Models
+          </h2>
+          <p className="text-muted leading-relaxed">
+            Thrillplug operates on a modular, high-impact structure. All services are delivered digitally. Billing is conducted via secure professional invoicing.
+          </p>
+          <a
+            href="mailto:julian@thrillplug.com"
+            className="inline-block mt-8 px-6 py-3 border border-border text-foreground font-bold uppercase tracking-wider text-sm hover:bg-foreground hover:text-background transition-colors duration-300"
+          >
+            Contact for Proposal
+          </a>
+        </div>
+        <div className="md:w-2/3 flex flex-col gap-6">
+          <div className="p-6 border border-border/50">
+            <h3 className="text-xl font-bold text-foreground mb-2">Strategic Consulting Modules</h3>
+            <p className="text-muted font-mono text-sm">Starting from €2,500</p>
+          </div>
+          <div className="p-6 border border-border/50">
+            <h3 className="text-xl font-bold text-foreground mb-2">Performance Retainers</h3>
+            <p className="text-muted font-mono text-sm">Starting from €4,000 / month</p>
+          </div>
+          <div className="p-6 border border-border/50">
+            <h3 className="text-xl font-bold text-foreground mb-2">Custom Enterprise Architecture</h3>
+            <p className="text-muted font-mono text-sm">Bespoke pricing based on Scope of Work</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

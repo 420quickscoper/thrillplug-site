@@ -11,7 +11,9 @@ export default function Footer() {
                     <address className="not-italic opacity-70 mb-4 max-w-xs leading-relaxed">
                         Flat 1019B, 10/F, Liven House<br />
                         No 61-63 King Yip Street<br />
-                        Kwun Tong, Hong Kong
+                        Kwun Tong, Hong Kong<br /><br />
+                        Phone: +43 1343 354 029<br />
+                        Business Registration Number: 79458399
                     </address>
                     <p className="opacity-70">&copy; {currentYear} Thrillplug. All rights reserved.</p>
                 </div>

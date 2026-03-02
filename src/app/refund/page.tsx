@@ -5,8 +5,11 @@ export default function RefundPage() {
 
             <section className="mb-12 mt-12">
                 <h2 className="text-2xl font-bold text-foreground mb-4">Service Commitment</h2>
-                <p className="leading-relaxed">
+                <p className="leading-relaxed mb-4">
                     At Thrillplug, we operate on a "Pure Signal" basis. Our goal is high-potency results for every client.
+                </p>
+                <p className="leading-relaxed font-bold text-foreground">
+                    All services are delivered digitally via email or secure client portals and involve no physical shipment.
                 </p>
             </section>
 
