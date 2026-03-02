@@ -32,4 +32,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: production
           publish_dir: ./out
-          force_orphan: true
